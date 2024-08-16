@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            margin-bottom: 20px;
+        }
+        .navbar {
+            background-color: #333;
+        }
+        .navbar-brand {
+            color: gold;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        .navbar-brand:hover {
+            color: gold;
+        }
+        .navbar-toggler {
+            border: none;
+        }
+        .navbar-toggler-icon {
+            background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="%23fff" stroke-width="2" d="M5 7h20M5 15h20M5 23h20"/%3E%3C/svg%3E');
+        }
+        .navbar-nav .nav-link {
+            color: white;
+            text-decoration: none;
+        }
+        .navbar-nav .nav-link:hover {
+            color: gold;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 8px;
+        }
+        h1 {
+            color: gold;
+            margin-bottom: 10px;
+        }
+        p {
+            color: white;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: 1px solid #555;
+            border-radius: 4px;
+            background-color: #222;
+            color: white;
+        }
+        .form-group textarea {
+            height: 150px;
+            resize: vertical;
+        }
+        .form-group button {
+            background-color: gold;
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #f3c600;
+        }
+        @media (max-width: 768px) {
+            .navbar-nav {
+                text-align: center;
+                margin-top: 10px;
+            }
+            .navbar-nav .nav-item {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Online Scatter</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/homepage/index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/games review/games.html">Games</a></li>
+                <li class="nav-item"><a class="nav-link" href="/promotions/promotions.html">Promotions</a></li>
+                <li class="nav-item"><a class="nav-link" href="/blog post/blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact us/contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Contact Us</h1>
+    <p>Feel free to reach out to us using the form below.</p>
+    
+    <form action="submit_form.php" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Send Message</button>
+        </div>
+    </form>
+</div>
+
+<!-- JavaScript for Bootstrap's Collapse Component -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

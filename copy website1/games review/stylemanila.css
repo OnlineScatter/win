@@ -1,0 +1,227 @@
+.mobile-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+
+/* Center all headings */
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  margin: 0 auto; /* Centering block-level headings */
+}
+
+/* Social Media Section */
+.social-media-section {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-right: 100px;
+}
+
+.social-media-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.social-media-links a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icon {
+  width: 48px;
+  height: 48px;
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* General Body Styles */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #000;
+  color: #fff;
+  font-size: 16pt;
+  height: 100%;
+}
+
+/* Header */
+header {
+  background-color: transparent;
+  margin-top: -3px;
+}
+
+/* Content */
+.content {
+  padding: 20px;
+}
+
+/* Section Styles */
+.section {
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center children horizontally */
+  text-align: center; /* Center text inside the div */
+  margin: 0 auto; /* Center the section horizontally in its container */
+  max-width: 800px; /* Optional: Set a max-width for better layout control */
+  padding: 20px; /* Optional: Add some padding for spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for emphasis */
+  border-radius: 8px; /* Optional: Rounded corners for a smoother look */
+}
+
+.section h2 {
+  color: #FFD700;
+}
+
+/* Image Styles */
+.img-fluid, .img-fluid1, .img-left, .img1 {
+  border-radius: 8px;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.img-fluid {
+  display: inline-block; /* Ensure it aligns properly */
+  max-width: 100%;
+  width: 30%; /* Default width */
+}
+
+.img-left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img1  {
+  max-width: 100%; /* Ensure the image is responsive */
+  align-content: center;
+  margin-left: 25%;
+}
+.img2 {
+  max-width: 100%; /* Ensure the image is responsive */
+  align-content: center;
+  margin-left: 20%;
+}
+.img3{
+  max-width: 100%; /* Ensure the image is responsive */
+  align-content: center;
+  width: 70%;
+  margin-left: 15%;
+}
+/* CTA Button Styles */
+.cta-button-container {
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FFD700;
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 40%;
+}
+
+.cta-button:hover {
+  background-color: #FFC107;
+}
+
+/* Centered Container */
+.centered-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  text-align: center; /* Center text and inline elements */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .image-container {
+    display: block;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .social-media-section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-right: 0; /* Remove negative margin */
+    margin-left: auto;
+  }
+
+  .mobile-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 8px;
+  }
+
+  .img-fluid, .img-fluid1 {
+    width: 100%; /* Make images full width */
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .cta-button {
+    display: inline-block; /* Change to inline-block to fit the button to the text */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #FFD700; /* Button background color */
+    color: #000; /* Button text color */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from links */
+    text-align: center; /* Center text within the button */
+    margin: 20px auto; /* Center the button horizontally */
+    font-size: 16pt; /* Adjust font size as needed */
+    margin-left: 60px;
+  }
+  
+
+  .H2 {
+    margin: 0 auto;
+    margin-left: 0; /* Remove left margin on mobile */
+    margin-bottom: 10px;
+  }
+
+  .img1 {
+    max-width: 100%; /* Ensure the image is responsive */
+    display: block;
+    margin: 0 auto; /* Center image */
+  }
+
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #000;
+    color: #fff;
+    font-size: 16pt;
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  .img2 {
+    max-width: 100%; /* Ensure the image is responsive */
+    align-content: center;
+   margin-left: 5px;
+  }
+  .img3{
+    max-width: 100%; /* Ensure the image is responsive */
+    align-content: center;
+    width: 70%;
+    margin-left: 15%;
+  }
+}

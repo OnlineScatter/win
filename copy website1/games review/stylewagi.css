@@ -1,0 +1,266 @@
+/* Center images within their container */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Additional styling for the sections if needed */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Ensure that the container does not stretch too much on larger screens */
+.container {
+  max-width: 960px; /* Adjust this value as needed */
+}
+
+/* Additional styles to make sure the layout looks good */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16pt;
+  text-align: center;
+}
+.bg-dark {
+  background-color: #343a40; /* Dark background for header and footer */
+}
+
+.text-light {
+  color: #f8f9fa; /* Light text color */
+}
+
+.text-dark {
+  color: #212529; /* Dark text color for better contrast */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f8f9fa; /* Light color for navbar links */
+}
+
+/* Style all header elements with a yellow color */
+h1, h2, h3, h4, h5, h6 {
+  color: gold;
+  text-align: center; /* Center-align all headers */
+}
+/* Target only the section with the class 'game-selection' */
+.game-selection img {
+  width: auto%; /* Adjust the width as needed */
+
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Center the image */
+
+}
+/* Footer styling */
+footer {
+  background-color: #343a40; /* Dark background color */
+  color: #f8f9fa; /* Light text color */
+  text-align: center; /* Center-align text */
+  padding: 1rem 0; /* Padding for top and bottom */
+  margin-top: 1rem; /* Margin for top space */
+}
+
+footer p {
+  margin: 0; /* Remove default margin from paragraph */
+  font-size: 1rem; /* Adjust font size if needed */
+}
+
+footer .btn-primary {
+  background-color: #007bff; /* Bootstrap primary button color */
+  border-color: #007bff; /* Bootstrap primary button border color */
+  color: #ffffff; /* Text color of the button */
+  text-decoration: none; /* Remove underline from button text */
+  padding: 0.5rem 1rem; /* Button padding */
+  border-radius: 0.25rem; /* Rounded corners for the button */
+  margin-bottom: 50px;
+}
+
+footer .btn-primary:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+  border-color: #004085; /* Darker shade for border on hover */
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
+footer .container {
+  max-width: 960px; /* Optional: Set a maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+
+/* Styling for the 'giveaways' section */
+#giveaways {
+  background-color: black; /* Light background color */
+  color: #212529; /* Dark text color for contrast */
+  padding: 2rem; /* Padding around the content */
+  margin: 2rem 0; /* Margin above and below the section */
+  border-radius: 0.5rem; /* Rounded corners */
+  text-align: center; /* Center-align text */
+}
+
+#giveaways h3 {
+  font-size: 1.75rem; /* Font size for the heading */
+  color: #343a40; /* Darker color for better emphasis */
+  margin-bottom: 1rem; /* Space below the heading */
+}
+
+#giveaways p {
+  font-size: 1rem; /* Font size for the paragraph */
+  margin-bottom: 1.5rem; /* Space below the paragraph */
+}
+
+#giveaways img {
+  width: 80%; /* Adjust width as needed */
+  max-width: 500px; /* Optional: Set a maximum width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Center the image */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Styling for the Exciting Giveaways section */
+#exciting-giveaways {
+  color: white; /* White text color */
+  padding: 2rem; /* Padding around the content */
+  margin: 2rem 0; /* Margin above and below the section */
+  border-radius: 1rem; /* Rounded corners for a softer look */
+  text-align: center; /* Center-align text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+ 
+}
+
+#exciting-giveaways h2 {
+  font-size: 1.5rem; /* Font size for the header */
+  color: gold; /* Gold color for the header */
+  margin-bottom: 1rem; /* Space below the header */
+  font-weight: bold; /* Make header bold */
+  text-transform: uppercase; /* Capitalize header text */
+  letter-spacing: 1px; /* Spacing between letters for emphasis */
+}
+
+#exciting-giveaways p {
+  font-size: 1rem; /* Font size for the paragraph */
+  margin-bottom: 1.5rem; /* Space below the paragraph */
+  line-height: 1.6; /* Increase line height for better readability */
+  max-width: 800px; /* Limit paragraph width for easier reading */
+  margin-left: auto; /* Center the paragraph block */
+  margin-right: auto; /* Center the paragraph block */
+  text-align: justify; /* Justify text for a clean look */
+}
+
+#exciting-giveaways a {
+  display: inline-block; /* Display the link as a block */
+  background-color: gold; /* Gold button background color */
+  color: black; /* Black text color for the button */
+  padding: 0.75rem 1.5rem; /* Padding for the button */
+  border-radius: 0.5rem; /* Rounded corners for the button */
+  font-size: 1rem; /* Font size for the button text */
+  text-decoration: none; /* Remove underline from the link */
+  font-weight: bold; /* Make button text bold */
+  margin-top: 1rem; /* Space above the button */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+#exciting-giveaways a:hover {
+  background-color: #f1c40f; /* Lighter gold shade for hover effect */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+#exciting-giveaways a:focus {
+  outline: 2px solid gold; /* Gold outline on focus for accessibility */
+}
+/* Styling for the Primo Register section */
+#primo-register {
+  color: white; /* White text color */
+  padding: 2rem; /* Padding around the content */
+  margin: 2rem 0; /* Margin above and below the section */
+  border-radius: 1rem; /* Rounded corners for a softer look */
+  text-align: center; /* Center-align text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+#primo-register h2 {
+  font-size: 1.5rem; /* Font size for the header */
+  color: gold; /* Gold color for the header */
+  margin-bottom: 1rem; /* Space below the header */
+  font-weight: bold; /* Make header bold */
+  text-transform: uppercase; /* Capitalize header text */
+  letter-spacing: 1px; /* Spacing between letters for emphasis */
+}
+
+#primo-register p {
+  font-size: 1rem; /* Font size for the paragraph */
+  margin-bottom: 1.5rem; /* Space below the paragraph */
+  line-height: 1.6; /* Increase line height for better readability */
+  max-width: 800px; /* Limit paragraph width for easier reading */
+  margin-left: auto; /* Center the paragraph block */
+  margin-right: auto; /* Center the paragraph block */
+  text-align: center;
+}
+
+.btn-register {
+  display: inline-flex; /* Align items horizontally */
+  align-items: center; /* Center items vertically */
+  background-color: gold; /* Gold button background color */
+  color: black; /* Black text color for the button */
+  padding: 0.75rem 1.5rem; /* Padding for the button */
+  border-radius: 0.5rem; /* Rounded corners for the button */
+  font-size: 1rem; /* Font size for the button text */
+  text-decoration: none; /* Remove underline from the link */
+  font-weight: bold; /* Make button text bold */
+  margin-top: 1rem; /* Space above the button */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn-register .logo-img {
+  width: 30px; /* Adjust logo width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 0.5rem; /* Space between logo and text */
+}
+
+.btn-register:hover {
+  background-color: #f1c40f; /* Lighter gold shade for hover effect */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.btn-register:focus {
+  outline: 2px solid gold; /* Gold outline on focus for accessibility */
+}
+/* Styling for the Exciting Giveaways section */
+#excitingbonus1 {
+  color: white; /* White text color */
+  padding: 2rem; /* Padding around the content */
+  margin: 2rem 0; /* Margin above and below the section */
+  border-radius: 1rem; /* Rounded corners for a softer look */
+  text-align: center; /* Center-align text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+#excitingbonus1 h3 {
+  font-size: 1.5rem; /* Font size for the heading */
+  color: gold; /* Gold color for the header */
+  margin-bottom: 1rem; /* Space below the header */
+  font-weight: bold; /* Make header bold */
+  text-transform: uppercase; /* Capitalize header text */
+  letter-spacing: 1px; /* Spacing between letters for emphasis */
+}
+
+#excitingbonus1 p {
+  font-size: 1rem; /* Font size for the paragraph */
+  margin-bottom: 1.5rem; /* Space below the paragraph */
+  line-height: 1.6; /* Increase line height for better readability */
+  max-width: 800px; /* Limit paragraph width for easier reading */
+  margin-left: auto; /* Center the paragraph block */
+  margin-right: auto; /* Center the paragraph block */
+  text-align: justify; /* Justify text for a clean look */
+}
+
+#excitingbonus1 img {
+  max-width: 100%; /* Ensure image is responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 0.5rem; /* Rounded corners for the image */
+  margin-top: 1rem; /* Space above the image */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for image */
+}

@@ -1,0 +1,109 @@
+/* General Body Styles */
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16pt;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+
+
+header h1 {
+  font-size: 20pt;
+  margin: 0;
+  text-align: center;
+  margin-top: -100px;
+  color: gold;
+}
+
+/* Section Styles */
+section {
+  padding: 2rem 0;
+  background-color: black;
+}
+
+section h2 {
+  color: gold;
+  border-bottom: 2px solid gold;
+  padding-bottom: 0.5rem;
+  font-size: 24pt;
+  margin-bottom: 1rem;
+}
+
+section h3 {
+  color: gold;
+  font-size: 22pt;
+  margin-top: 1rem;
+}
+
+/* Text and Links */
+p {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: gold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Center-align all images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.container{
+  margin-top: 200px;
+  
+}
+
+/* Center-align and set font color for all heading elements */
+h1, h2, h3, h4 {
+  text-align: center;  /* Center-align text */
+  color: gold;         /* Set text color to gold */
+  margin: 0.5em 0;     /* Optional: Add margin for spacing */
+ 
+}
+
+p{
+  text-align: center;  /* Center-align text */
+  color: white;         /* Set text color to gold */
+  margin: 0.5em 0;     /* Optional: Add margin for spacing */
+}
+/* Box styling for the section */
+.cta-box {
+  background-color: #1c1c1c; /* Dark background for the box */
+  color: #f8f9fa; /* Light text color for contrast */
+  padding: 2rem; /* Padding around the content */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 6px 12px white(0, 0, 0, 0.4); /* Subtle shadow effect */
+  max-width: 600px; /* Maximum width of the box */
+  margin: 0 auto; /* Center the box horizontally */
+  text-align: center; /* Center text inside the box */
+}
+
+/* Styling for the heading */
+.cta-box h3 {
+  font-size: 26px; /* Larger font size for the heading */
+  margin-bottom: 1rem; /* Space below the heading */
+}
+
+/* Styling for the paragraph */
+.cta-box p {
+  font-size: 18px; /* Font size for the paragraph */
+  margin-bottom: 1.5rem; /* Space below the paragraph */
+}
